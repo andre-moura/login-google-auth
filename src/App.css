@@ -1,10 +1,45 @@
+body {
+  background-color: #121212!important;
+  color: #fff!important;
+  font-family: Centra,sans-serif!important;
+  overflow-x: hidden;
+  position: relative;
+}
+
 .App {
   text-align: center;
+}
+.login-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.form-login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #151515;
+  color: #fff;
+  background-color: rgb(21, 21, 21);
+  border-radius: 64px;
+  padding: 60px 50px;
+  width: 30%;
+  height: 30%;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.btn-logoff {
+  width: 150px;
+  height: 25px;
+  color: #fff;
+  background-color: #0083ff;
+  border: none;
+  border-radius: 3px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
