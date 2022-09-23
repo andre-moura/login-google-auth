@@ -22,7 +22,7 @@ export const LoginForm = () => {
       const google = window.google;
   
       google.accounts.id.initialize({
-        client_id: '',
+        client_id: 'Your ID',
         callback: handleCallbackResponse
       });
   
