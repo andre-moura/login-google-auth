@@ -3,7 +3,7 @@
 # Authentication with the Google OAuth API 
 The objective of this project is to create a form capable of using the API provided by Google to authenticate a user. To use this reaction web app, you will need to create your own credential on [Google Cloud](https://developers.google.com/workspace/guides/create-credentials).
 
-<img src="https://raw.githubusercontent.com/andre-moura/login-google-auth/master/src/assets/img/loginForm.png?token=GHSAT0AAAAAABX3KKTG3FKORDPME754WDKIYZOICGQ" />
+<img src="https://github.com/andre-moura/login-google-auth/blob/master/src/assets/img/loginForm.png?raw=true" />
 
 
 ## Built using:
