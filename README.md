@@ -5,16 +5,7 @@ The objective of this project is to create a form capable of using the API provi
 
 <img src="https://github.com/andre-moura/login-google-auth/blob/master/src/assets/img/loginForm.png?raw=true" />
 
-
-## Built using:
-
-- Node
-- Javascript
-- React
-- HTML
-- CSS
-
-## How to get started
+# How to get started
 
 Clone the repository
 ```bash
@@ -26,16 +17,20 @@ Download the libraries and dependencies
 npm i
 ```
 
-Replace the Google API credential located on line 25 of [LoginForm.js](https://github.com/andre-moura/login-google-auth/blob/master/src/components/LoginForm.js)
+## Set your API Token and start application
+
+**Windows (cmd.exe)**
 ```bash
-google.accounts.id.initialize({
-    client_id: 'Google API credential',
-    callback: handleCallbackResponse
-  });
+set "REACT_APP_API_KEY=YourSecretKey" && npm start
 ```
 
-Run the application in the development mode
+**Windows (Powershell)**
 ```bash
-npm start
+($env:REACT_APP_API_KEY = "YourSecretKey") -and (npm start)
 ```
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+**Linux, macOS (Bash)**
+```bash
+REACT_APP_API_KEY=YourSecretKey npm start
+```
+**Open [http://localhost:3000](http://localhost:3000) to view it in your browser.**
