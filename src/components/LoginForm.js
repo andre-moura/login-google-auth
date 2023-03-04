@@ -20,9 +20,8 @@ export const LoginForm = () => {
     }
     useEffect (() => {
       const google = window.google;
-  
       google.accounts.id.initialize({
-        client_id: 'Your ID',
+        client_id: process.env.REACT_APP_API_KEY,
         callback: handleCallbackResponse
       });
   
