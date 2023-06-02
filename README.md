@@ -3,7 +3,7 @@
 # Authentication with the Google OAuth API 
 The goal of this project is to develop a form that utilizes the Google API for user authentication. To use this React web application, you will need to create your own credentials on [Google Cloud](https://developers.google.com/workspace/guides/create-credentials).
 
-<img src="https://github.com/andre-moura/login-google-auth/blob/master/src/assets/img/loginForm.png?raw=true" />
+<img src="https://github.com/andre-moura/login-google-auth/blob/master/src/assets/img/login-google-auth.png?raw=true" />
 
 # How to get started
 
